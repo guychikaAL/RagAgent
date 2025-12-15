@@ -16,7 +16,7 @@
       "answer": "ACC9900461",
       "ground_truth": "ACC9900461",
       "context_recall": 1.0,
-      "context_precision": 0.49999999995,
+      "context_precision": 0.4499999999775,
       "faithfulness": 1.0,
       "answer_relevancy": 0.7593909212874905
     },
@@ -28,7 +28,7 @@
       "context_recall": 1.0,
       "context_precision": 0.8333333332916666,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.7822168600076025
+      "answer_relevancy": 0.8111556501754055
     },
     {
       "question_id": "q4",
@@ -43,32 +43,32 @@
     {
       "question_id": "q5",
       "question": "Summarize Jon Mor's entire claim",
-      "answer": "Jon Mor's claim, numbered 1, pertains to a rear-end collision that occurred on June 6, 2024, at the intersection of 10th Ave & 5th St in Sample City. The incident resulted in minor injuries and a police report was filed. The claim is currently pending court proceedings, with a fraud risk score of 4. The assigned adjuster for this claim is Linda Cooper.\n\nThe vehicle involved is a 2015 Toyota Corolla, with license plate PLT100 and VIN VINCODE123450000. The collision caused moderate deformation to the rear bumper. Weather conditions at the time included strong winds and heavy rain, which reduced visibility, as confirmed by a witness. \n\nRepair estimates for the damages range from $500 to $600, and the vehicle has been assigned to AutoFix Garage for repairs, with an appointment scheduled for July 8, 2024. A mini timeline of events includes the initial collision at 14:59, details exchanged at 15:15, and the ambulance arriving shortly thereafter. The court date for this claim is set for November 16, 2024. Jon Mor signed the declaration affirming the accuracy of the information provided on June 8, 2024.",
+      "answer": "Jon Mor's claim, numbered 1, pertains to an auto incident that occurred on June 6, 2024, at the intersection of 10th Ave and 5th St in Sample City. The accident was a rear-end collision classified as minor in severity, and it resulted in minor injuries. A police report was filed, and the claim is currently pending court proceedings. The assigned adjuster for this claim is Linda Cooper, and it has a fraud risk score of 4.\n\nThe vehicle involved is a 2015 Toyota Corolla, with the license plate PLT100 and VIN VINCODE123450000. The damages from the collision include moderate deformation of the rear bumper. Weather conditions at the time of the incident included strong winds and heavy rain, which reduced visibility, as confirmed by a witness. \n\nRepair estimates for the damages are $500 and $600, with AutoFix Garage assigned for repairs, scheduled for July 8, 2024. A mini timeline of events indicates that the initial collision occurred at 14:59, details were exchanged by 15:15, and an ambulance arrived shortly after. The court date for this claim is set for November 16, 2024. Jon Mor signed the declaration of accuracy for the claim on June 8, 2024.",
       "ground_truth": "Jon Mor filed an auto claim with BlueRiver Mutual, identified as Claim Number 1. The incident occurred on June 6, 2024, at the intersection of 10th Ave & 5th St in Sample City, resulting in minor injuries. A police report was filed. The accident was classified as a rear-end collision with minor severity, and the claim is currently pending court. The fraud risk score for this claim is 4, and it has been tagged internally as TOW-FLAG-3. The assigned adjuster is Linda Cooper.",
       "context_recall": 1.0,
-      "context_precision": 0.99999999998,
+      "context_precision": 0.999999999975,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.8713306970565132
+      "answer_relevancy": 0.8777469876384721
     },
     {
       "question_id": "q6",
       "question": "Summarize Eli Cohen's claim",
-      "answer": "Eli Cohen's claim (Claim Number 5) involves a side-impact accident that occurred on January 24, 2024, at the intersection of 14th Ave & 9th St in Sample City. The severity of the incident is classified as minor, and there were no injuries reported. A police report was filed, and the claim is currently open with a fraud risk score of 3. The vehicle involved is a 2019 Kia Sportage, with license plate PLT104 and VIN VINCODE123450004. \n\nThe accident was attributed to the driver swerving to avoid an obstacle and hitting a curb. Weather conditions at the time were foggy, and a witness confirmed that heavy rain reduced visibility. Two repair estimates were provided, one for $660 and another for $820, with Downtown AutoWorks assigned for repairs, scheduled for February 18, 2024. The court date for this claim is set for June 27, 2024. Eli Cohen declared the information provided as accurate on January 26, 2024.",
+      "answer": "Eli Cohen's claim, numbered 5, involves a side-impact accident that occurred on January 24, 2024, at the intersection of 14th Ave & 9th St in Sample City. The severity of the incident is classified as minor, and there were no injuries reported. A police report was filed, and the claim is currently open with a fraud risk score of 3. The vehicle involved is a 2019 Kia Sportage, with the license plate PLT104. \n\nThe accident occurred under foggy conditions, and a witness confirmed that heavy rain reduced visibility at the time. The damages resulted from the driver swerving to avoid an obstacle and hitting a curb. Two repair estimates have been provided, one for $660 and another for $820, with Downtown AutoWorks assigned for repairs, scheduled for February 18, 2024. A court date is set for June 27, 2024. Eli Cohen has declared the information provided in the claim to be accurate, signing the declaration on January 26, 2024.",
       "ground_truth": "Eli Cohen's claim, numbered 5, involves a side-impact accident that occurred on January 24, 2024, at the intersection of 14th Ave & 9th St in Sample City. The severity of the incident is classified as minor, and there were no injuries reported. A police report was filed. The vehicle involved is a 2019 Kia Sportage with license plate PLT104. The driver swerved to avoid an obstacle and hit a curb, resulting in damages. Weather conditions at the time were foggy, and a witness confirmed that heavy rain reduced visibility. Two repair estimates were provided, ranging from $660 to $820, and the assigned repair shop is Downtown AutoWorks, with a repair appointment scheduled for February 18, 2024. The claim is currently open, with a fraud risk score of 3, and it is tagged as a priority case. The assigned adjuster for this claim is Joshua Stein.",
       "context_recall": 1.0,
       "context_precision": 0.37499999998125,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.8640197794381298
+      "answer_relevancy": 0.8725912144933146
     },
     {
       "question_id": "q7",
       "question": "What happened in Sarah Klein's accident?",
-      "answer": "Sarah Klein was involved in a hit-and-run accident on July 30, 2024. The incident occurred when she lost control of her vehicle on a wet road, leading to an impact with a guardrail. The severity of the accident was classified as minor, and there were no reported injuries. A witness stated that they saw a vehicle drift across lane boundaries during the incident. The claim is currently under investigation, and the assigned adjuster is Daniel Harris.",
+      "answer": "In Sarah Klein's accident, she experienced a hit-and-run incident where she lost control of her vehicle on a wet road, leading to an impact with a guardrail. The accident was classified as having minor severity, and there were no injuries reported. A witness observed a vehicle drifting across lane boundaries during the incident.",
       "ground_truth": "Sarah Klein's accident involved a hit-and-run incident where she lost control of her vehicle on a wet road, leading to an impact with a guardrail. The severity of the accident was classified as minor, and there were no injuries reported. A witness observed a vehicle drifting across lane boundaries during the incident.",
       "context_recall": 1.0,
       "context_precision": 0.9166666666361111,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9201302618549396
+      "answer_relevancy": 1.0000000000000002
     },
     {
       "question_id": "q8",
@@ -84,8 +84,8 @@
   "summary": {
     "total_cases": 8,
     "avg_context_recall": 1.0,
-    "avg_context_precision": 0.7031249999673785,
+    "avg_context_precision": 0.696874999970191,
     "avg_faithfulness": 1.0,
-    "avg_answer_relevancy": 0.826288549069976
+    "avg_answer_relevancy": 0.8439737282056913
   }
 }
