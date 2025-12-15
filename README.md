@@ -14,6 +14,24 @@ python build_production_index.py
 # Query the system
 python main.py
 # Then type questions interactively
+
+or GUI experience
+
+# Build production index (once)
+python build_production_index.py
+
+# Launch web interface
+streamlit run app/gui_app.py
+```
+you might need enter your email for GUI expirience
+
+evaluation
+```bash
+#ragas evaluation
+python evaluation-ragas/ragas_eval.py
+
+#custom llm as a jusge evaluation (need to enter gemini api key in .env GOOGLE_API_KEY="")
+python evaluation/run_evaluation.py 
 ```
 
 ### Supported Query Formats
