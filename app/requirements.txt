@@ -1,0 +1,17 @@
+# GUI App Requirements
+# Install with: pip install -r requirements.txt
+
+# Web framework
+streamlit>=1.30.0
+
+# Visualization (for displaying evaluation results)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+
+# Note: All RAG dependencies should already be installed
+# from the main project requirements.txt
+
+# If running standalone, you'll also need:
+# - All packages from ../requirements.txt
+# - OpenAI API key in .env file

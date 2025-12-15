@@ -1,0 +1,40 @@
+{
+  "test_cases": [
+    {
+      "id": "needle_001",
+      "type": "needle",
+      "question": "What is Jon Mor's phone number?",
+      "ground_truth": "(555) 100-2000",
+      "expected_chunks": []
+    },
+    {
+      "id": "needle_002",
+      "type": "needle",
+      "question": "What is Eli Cohen's account number?",
+      "ground_truth": "ACC9900461",
+      "expected_chunks": []
+    },
+    {
+      "id": "summary_001",
+      "type": "summary",
+      "question": "Summarize Jon Mor's entire claim",
+      "ground_truth": "Jon Mor's claim, numbered 1, pertains to a rear-end collision that occurred on June 6, 2024, at the intersection of 10th Ave & 5th St in Sample City. The incident resulted in minor injuries, and a police report was filed. The claim is currently pending court proceedings, with a fraud risk score of 4. The assigned adjuster for this claim is Linda Cooper.",
+      "expected_chunks": []
+    },
+    {
+      "id": "summary_002",
+      "type": "summary",
+      "question": "Summarize Eli Cohen's claim",
+      "ground_truth": "Eli Cohen's claim, numbered 5, involves a side-impact accident that occurred on January 24, 2024, at the intersection of 14th Ave & 9th St in Sample City. The incident did not result in any injuries, and a police report was filed. The severity of the accident is classified as minor, and the claim is currently open with a fraud risk score of 3. The assigned adjuster for this claim is Joshua Stein.",
+      "expected_chunks": []
+    },
+    {
+      "id": "unanswerable_001",
+      "type": "needle",
+      "question": "What is the blood type of the claimant in claim #1?",
+      "ground_truth": "No information available",
+      "expected_chunks": []
+    }
+  ]
+}
+

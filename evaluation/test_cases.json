@@ -1,0 +1,61 @@
+{
+  "test_cases": [
+    {
+      "id": "needle_001",
+      "type": "needle",
+      "question": "What is Jon Mor's phone number?",
+      "ground_truth": "(555) 100-2000",
+      "expected_chunks": []
+    },
+    {
+      "id": "needle_002",
+      "type": "needle",
+      "question": "What is Eli Cohen's account number?",
+      "ground_truth": "ACC9900461",
+      "expected_chunks": []
+    },
+    {
+      "id": "needle_003",
+      "type": "needle",
+      "question": "What vehicle does Sarah Klein drive?",
+      "ground_truth": "Honda Civic",
+      "expected_chunks": []
+    },
+    {
+      "id": "needle_004",
+      "type": "needle",
+      "question": "When did David Ross's accident occur?",
+      "ground_truth": "2024-02-14",
+      "expected_chunks": []
+    },
+    {
+      "id": "summary_001",
+      "type": "summary",
+      "question": "Summarize Jon Mor's entire claim",
+      "ground_truth": "Jon Mor filed an auto claim with BlueRiver Mutual, identified as Claim Number 1. The incident occurred on June 6, 2024, at the intersection of 10th Ave & 5th St in Sample City, resulting in minor injuries. A police report was filed. The accident was classified as a rear-end collision with minor severity, and the claim is currently pending court. The fraud risk score for this claim is 4, and it has been tagged internally as TOW-FLAG-3. The assigned adjuster is Linda Cooper.",
+      "expected_chunks": []
+    },
+    {
+      "id": "summary_002",
+      "type": "summary",
+      "question": "Summarize Eli Cohen's claim",
+      "ground_truth": "Eli Cohen's claim, numbered 5, involves a side-impact accident that occurred on January 24, 2024, at the intersection of 14th Ave & 9th St in Sample City. The severity of the incident is classified as minor, and there were no injuries reported. A police report was filed. The vehicle involved is a 2019 Kia Sportage with license plate PLT104. The driver swerved to avoid an obstacle and hit a curb, resulting in damages. Weather conditions at the time were foggy, and a witness confirmed that heavy rain reduced visibility. Two repair estimates were provided, ranging from $660 to $820, and the assigned repair shop is Downtown AutoWorks, with a repair appointment scheduled for February 18, 2024. The claim is currently open, with a fraud risk score of 3, and it is tagged as a priority case. The assigned adjuster for this claim is Joshua Stein.",
+      "expected_chunks": []
+    },
+    {
+      "id": "summary_003",
+      "type": "summary",
+      "question": "What happened in Sarah Klein's accident?",
+      "ground_truth": "Sarah Klein's accident involved a hit-and-run incident where she lost control of her vehicle on a wet road, leading to an impact with a guardrail. The severity of the accident was classified as minor, and there were no injuries reported. A witness observed a vehicle drifting across lane boundaries during the incident.",
+      "expected_chunks": []
+    },
+    {
+      "id": "unanswerable_001",
+      "type": "needle",
+      "question": "What is the blood type of the claimant in claim #1?",
+      "ground_truth": "No information available",
+      "expected_chunks": []
+    }
+  ]
+}
+

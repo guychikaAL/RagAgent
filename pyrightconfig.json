@@ -1,0 +1,24 @@
+{
+    "venvPath": "/opt/anaconda3/envs",
+    "venv": "ragagent",
+    "pythonVersion": "3.11",
+    "pythonPlatform": "Darwin",
+    "extraPaths": [
+        "/opt/anaconda3/envs/ragagent/lib/python3.11/site-packages"
+    ],
+    "executionEnvironments": [
+        {
+            "root": ".",
+            "pythonVersion": "3.11",
+            "pythonPlatform": "Darwin",
+            "extraPaths": [
+                "/opt/anaconda3/envs/ragagent/lib/python3.11/site-packages"
+            ]
+        }
+    ],
+    "typeCheckingMode": "basic",
+    "reportMissingImports": "warning",
+    "reportMissingTypeStubs": false
+}
+
+

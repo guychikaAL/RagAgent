@@ -1,0 +1,261 @@
+{
+  "results": [
+    {
+      "question_id": "needle_001",
+      "question": "What is Jon Mor's phone number?",
+      "question_type": "needle",
+      "ground_truth": "(555) 100-2000",
+      "system_answer": "(555) 100-2000",
+      "route": "needle",
+      "retrieved_chunks": [
+        "Chunk 1",
+        "Chunk 2"
+      ],
+      "confidence": 1.0,
+      "answer_correctness": {
+        "score": 1.0,
+        "explanation": "The system answer exactly matches the ground truth. All information provided is correct and complete, with no missing facts or contradictions."
+      },
+      "context_relevancy": {
+        "score": 0.8,
+        "explanation": "Chunk 1 (weight 0.5): 1.0 - Directly contains Jon Mor's phone number. Chunk 2 (weight 0.3): 1.0 - Also directly contains Jon Mor's phone number. Chunk 3 (weight 0.2): 0.0 - Contains a timeline and court date for the claim but no phone number for Jon Mor. Weighted total: (1.0\u00d70.5)+(1.0\u00d70.3)+(0.0\u00d70.2) = 0.80."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "explanation": "Context recall not evaluated (no expected chunks specified). Default score: 1.0"
+      },
+      "final_score": 0.9333333333333332,
+      "is_unanswerable": false,
+      "scoring_note": null
+    },
+    {
+      "question_id": "needle_002",
+      "question": "What is Eli Cohen's account number?",
+      "question_type": "needle",
+      "ground_truth": "ACC9900461",
+      "system_answer": "ACC9900461",
+      "route": "needle",
+      "retrieved_chunks": [
+        "Chunk 2",
+        "Chunk 5"
+      ],
+      "confidence": 1.0,
+      "answer_correctness": {
+        "score": 1.0,
+        "explanation": "The system answer perfectly matches the ground truth. The account number provided is identical to the correct answer, containing all key information without any errors or omissions."
+      },
+      "context_relevancy": {
+        "score": 0.3,
+        "explanation": "Chunk 1 (weight 0.5): 0.0 - This chunk details officer ID, court date, and a declaration for Claim 5, but it does not contain Eli Cohen's account number. Chunk 2 (weight 0.3): 1.0 - This chunk directly provides the requested information: 'Name: Eli Cohen Account Number: ACC9900461'. Chunk 3 (weight 0.2): 0.0 - This chunk is identical to Chunk 1 and is not relevant to Eli Cohen's account number, providing details like officer ID and court date instead. Weighted total: (0.0\u00d70.5)+(1.0\u00d70.3)+(0.0\u00d70.2) = 0.30."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "explanation": "Context recall not evaluated (no expected chunks specified). Default score: 1.0"
+      },
+      "final_score": 0.7666666666666666,
+      "is_unanswerable": false,
+      "scoring_note": null
+    },
+    {
+      "question_id": "needle_003",
+      "question": "What vehicle does Sarah Klein drive?",
+      "question_type": "needle",
+      "ground_truth": "Honda Civic",
+      "system_answer": "Honda Civic 2016",
+      "route": "needle",
+      "retrieved_chunks": [
+        "Chunk 1",
+        "Chunk 3"
+      ],
+      "confidence": 1.0,
+      "answer_correctness": {
+        "score": 0.85,
+        "explanation": "The system correctly identified the vehicle as a 'Honda Civic', which is the key information requested. However, it added the year '2016', which is a specific detail not present in the ground truth, constituting a minor factual hallucination. The core answer is correct, but the addition slightly deviates from the provided truth."
+      },
+      "context_relevancy": {
+        "score": 0.7,
+        "explanation": "Chunk 1 (weight 0.5): 1.0 - Directly contains Sarah Klein's vehicle information (Honda Civic). Chunk 2 (weight 0.3): 0.0 - Contains timeline and tow company details, not relevant to Sarah Klein's vehicle. Chunk 3 (weight 0.2): 1.0 - Directly contains Sarah Klein's vehicle information (Honda Civic). Weighted total: (1.0\u00d70.5)+(0.0\u00d70.3)+(1.0\u00d70.2) = 0.70."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "explanation": "Context recall not evaluated (no expected chunks specified). Default score: 1.0"
+      },
+      "final_score": 0.85,
+      "is_unanswerable": false,
+      "scoring_note": null
+    },
+    {
+      "question_id": "needle_004",
+      "question": "When did David Ross's accident occur?",
+      "question_type": "needle",
+      "ground_truth": "2024-02-14",
+      "system_answer": "2024-02-14",
+      "route": "needle",
+      "retrieved_chunks": [
+        "Chunk 1",
+        "Chunk 2"
+      ],
+      "confidence": 1.0,
+      "answer_correctness": {
+        "score": 1.0,
+        "explanation": "The system answer exactly matches the ground truth regarding the date of David Ross's accident. All key information is present and correct with no contradictions or missing details."
+      },
+      "context_relevancy": {
+        "score": 0.8,
+        "explanation": "Chunk 1 (weight 0.5): 1.0 - Directly states 'Date of Incident: 2024-02-14' for David Ross. Chunk 2 (weight 0.3): 1.0 - Also directly states 'Date of Incident: 2024-02-14' for David Ross. Chunk 3 (weight 0.2): 0.0 - Contains details about weather, witnesses, and repair estimates for Claim #3, but does not include the date of incident. Weighted total: (1.0\u00d70.5)+(1.0\u00d70.3)+(0.0\u00d70.2) = 0.80."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "explanation": "Context recall not evaluated (no expected chunks specified). Default score: 1.0"
+      },
+      "final_score": 0.9333333333333332,
+      "is_unanswerable": false,
+      "scoring_note": null
+    },
+    {
+      "question_id": "summary_001",
+      "question": "Summarize Jon Mor's entire claim",
+      "question_type": "summary",
+      "ground_truth": "Jon Mor filed an auto claim with BlueRiver Mutual, identified as Claim Number 1. The incident occurred on June 6, 2024, at the intersection of 10th Ave & 5th St in Sample City, resulting in minor injuries. A police report was filed. The accident was classified as a rear-end collision with minor severity, and the claim is currently pending court. The fraud risk score for this claim is 4, and it has been tagged internally as TOW-FLAG-3. The assigned adjuster is Linda Cooper.",
+      "system_answer": "Jon Mor submitted an auto insurance claim following a rear-end collision that occurred on June 6, 2024, at the intersection of 10th Ave and 5th St in Sample City. The incident resulted in minor injuries and a police report was filed. The claim is currently pending court proceedings, with a fraud risk score of 4. The assigned adjuster for the case is Linda Cooper.\n\nThe vehicle involved in the accident is a 2015 Toyota Corolla, with the license plate PLT100 and VIN VINCODE123450000. The collision caused moderate deformation to the rear bumper. Weather conditions at the time included strong winds and heavy rain, which reduced visibility, as confirmed by a witness.\n\nRepair estimates for the damages are $500 and $600, with AutoFix Garage assigned for repairs. A repair appointment is scheduled for July 8, 2024. A mini timeline of events includes the initial collision at 14:59, details exchanged at 15:15, ambulance arrival at 15:33, and the vehicle being towed at 15:15. The court date for the claim is set for November 16, 2024. Jon Mor declared that the information provided is accurate, signing the declaration on June 8, 2024.",
+      "route": "summary",
+      "retrieved_chunks": [
+        "11acfa93abd00cc7",
+        "d27c43cfe66ba5db",
+        "73be9e104d13b7f5",
+        "7fceb99bcff919ae",
+        "beb8dad55512adea",
+        "ab254be1a90d427c",
+        "7397008e6ed7ca64",
+        "9be31353c8623839",
+        "f20366a4c670b254",
+        "c67aeaaf3920191a"
+      ],
+      "confidence": 0.85,
+      "answer_correctness": {
+        "score": 0.6,
+        "explanation": "The system correctly identified many core details of the claim, including the claimant, incident date, location, injuries, accident type, police report, claim status, fraud score, and assigned adjuster. However, it missed several key identifiers from the ground truth such as the insurer, claim number, and internal tag. Crucially, the system hallucinated a significant amount of detailed information not present in the ground truth, including vehicle specifics, repair estimates, weather conditions, a specific court date, and a detailed timeline, and also contradicted the severity of the collision."
+      },
+      "context_relevancy": {
+        "score": 1.0,
+        "explanation": "Chunk 1 (weight 0.5): 1.0 - Contains claimant information, incident details, vehicle information, and initial damage description for Jon Mor's claim. Chunk 2 (weight 0.3): 1.0 - Expands on Chunk 1 by adding weather conditions, witness statement, and repair estimates for Jon Mor's claim. Chunk 3 (weight 0.2): 1.0 - Provides additional details like a second witness, event timeline, and court date for Jon Mor's claim. All chunks are highly relevant for summarizing the entire claim. Weighted total: (1.0\u00d70.5)+(1.0\u00d70.3)+(1.0\u00d70.2) = 1.00."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "explanation": "Context recall not evaluated (no expected chunks specified). Default score: 1.0"
+      },
+      "final_score": 0.8666666666666667,
+      "is_unanswerable": false,
+      "scoring_note": null
+    },
+    {
+      "question_id": "summary_002",
+      "question": "Summarize Eli Cohen's claim",
+      "question_type": "summary",
+      "ground_truth": "Eli Cohen's claim, numbered 5, involves a side-impact accident that occurred on January 24, 2024, at the intersection of 14th Ave & 9th St in Sample City. The severity of the incident is classified as minor, and there were no injuries reported. A police report was filed. The vehicle involved is a 2019 Kia Sportage with license plate PLT104. The driver swerved to avoid an obstacle and hit a curb, resulting in damages. Weather conditions at the time were foggy, and a witness confirmed that heavy rain reduced visibility. Two repair estimates were provided, ranging from $660 to $820, and the assigned repair shop is Downtown AutoWorks, with a repair appointment scheduled for February 18, 2024. The claim is currently open, with a fraud risk score of 3, and it is tagged as a priority case. The assigned adjuster for this claim is Joshua Stein.",
+      "system_answer": "Eli Cohen's claim, numbered 5, pertains to a side-impact accident that occurred on January 24, 2024, at the intersection of 14th Ave and 9th St in Sample City. The severity of the incident is classified as minor, and there were no injuries reported. A police report was filed, and the claim is currently open with a fraud risk score of 3. The vehicle involved is a 2019 Kia Sportage, with the license plate PLT104. \n\nThe accident was caused when the driver swerved to avoid an obstacle and hit a curb. Weather conditions at the time were foggy, and a witness confirmed that heavy rain reduced visibility. Two repair estimates have been provided, one for $660 and another for $820, with Downtown AutoWorks assigned for repairs, scheduled for February 18, 2024. The claim is being handled by adjuster Joshua Stein, and a court date is set for June 27, 2024. Eli Cohen signed the declaration of accuracy for the information provided on January 26, 2024.",
+      "route": "summary",
+      "retrieved_chunks": [
+        "89d77f87539f7fb7",
+        "35e0439fecf76966",
+        "15f9b9fc71c70b29",
+        "2d30ec825e33d1db",
+        "7397008e6ed7ca64",
+        "c67aeaaf3920191a",
+        "7c55b840334c3293",
+        "14af82cd5cdcef61",
+        "dbe1f8c50d910e0c",
+        "0d79d12ca300de0c"
+      ],
+      "confidence": 0.85,
+      "answer_correctness": {
+        "score": 0.7,
+        "explanation": "The system answer accurately includes nearly all key facts from the ground truth, such as the claim details, accident specifics, vehicle information, repair estimates, and the assigned adjuster. However, it misses one minor detail ('priority case') and, more critically, hallucinates two distinct and specific pieces of information: a court date and Eli Cohen signing a declaration of accuracy. These fabrications significantly reduce the score despite the high factual accuracy of the other information."
+      },
+      "context_relevancy": {
+        "score": 1.0,
+        "explanation": "Chunk 1 (weight 0.5): 1.0 - Contains court date and declaration date for Eli Cohen's claim (Claim #5), relevant for a summary. Chunk 2 (weight 0.3): 1.0 - Directly provides comprehensive claimant information, incident details, vehicle info, and damage description for Eli Cohen's claim #5, highly relevant for a summary. Chunk 3 (weight 0.2): 1.0 - Contains court date and declaration date for Eli Cohen's claim (Claim #5), relevant for a summary (though it is a duplicate of Chunk 1, it's still relevant info). Weighted total: (1.0\u00d70.5)+(1.0\u00d70.3)+(1.0\u00d70.2) = 1.00."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "explanation": "Context recall not evaluated (no expected chunks specified). Default score: 1.0"
+      },
+      "final_score": 0.9,
+      "is_unanswerable": false,
+      "scoring_note": null
+    },
+    {
+      "question_id": "summary_003",
+      "question": "What happened in Sarah Klein's accident?",
+      "question_type": "summary",
+      "ground_truth": "Sarah Klein's accident involved a hit-and-run incident where she lost control of her vehicle on a wet road, leading to an impact with a guardrail. The severity of the accident was classified as minor, and there were no injuries reported. A witness observed a vehicle drifting across lane boundaries during the incident.",
+      "system_answer": "Sarah Klein's accident involved a hit-and-run incident that occurred on July 30, 2024, at the intersection of 11th Ave and 6th St in Sample City. The accident was classified as minor in severity, and there were no injuries reported. The circumstances leading to the accident included a loss of control on a wet road, which resulted in her vehicle impacting a guardrail. A witness observed a vehicle drifting across lane boundaries during the incident. The claim is currently under investigation, and two repair estimates have been provided, with the repair shop assigned being AutoFix Garage.",
+      "route": "summary",
+      "retrieved_chunks": [
+        "9bfd7045ebe3d232",
+        "7b613e08b960efdd",
+        "3c5351fe21848fc2",
+        "5554e37a59e26ada",
+        "3d6b78842d94bb8b",
+        "bcf686e2fe5f6a3d",
+        "bd4643a4d3b735d9",
+        "bc6a8c676886e8c5",
+        "287581e32244e94e",
+        "2d79cda8ff31bb92"
+      ],
+      "confidence": 0.85,
+      "answer_correctness": {
+        "score": 0.5,
+        "explanation": "The system answer correctly includes all key facts from the ground truth, such as the hit-and-run incident, loss of control on a wet road leading to a guardrail impact, minor severity, no reported injuries, and witness observation. However, it hallucinates multiple specific details not present in the ground truth, including the date, location, investigation status, and repair estimates/shop. The extensive presence of these fabricated details significantly reduces the answer's overall correctness despite accurately capturing the ground truth facts."
+      },
+      "context_relevancy": {
+        "score": 1.0,
+        "explanation": "Chunk 1 (weight 0.5): 1.0 - Directly states the claimant is Sarah Klein and provides a description of the accident: 'Loss of control on wet road led to impact with guardrail' and 'Hit-and-run'. Chunk 2 (weight 0.3): 1.0 - This chunk is a duplicate of Chunk 1 but includes additional relevant details about the accident, such as 'Weather Conditions: Overcast' and 'Witness Statement: Witness saw a vehicle drift across lane boundaries'. Chunk 3 (weight 0.2): 1.0 - Pertains to Sarah Klein's claim (Claim #2) and offers a 'MINI TIMELINE OF EVENTS' including the 'Initial collision', 'Ambulance arrived', and 'Vehicle towed', all of which describe 'what happened'. Weighted total: (1.0\u00d70.5)+(1.0\u00d70.3)+(1.0\u00d70.2) = 1.00."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "explanation": "Context recall not evaluated (no expected chunks specified). Default score: 1.0"
+      },
+      "final_score": 0.8333333333333334,
+      "is_unanswerable": false,
+      "scoring_note": null
+    },
+    {
+      "question_id": "unanswerable_001",
+      "question": "What is the blood type of the claimant in claim #1?",
+      "question_type": "needle",
+      "ground_truth": "No information available",
+      "system_answer": "No information available",
+      "route": "needle",
+      "retrieved_chunks": [
+        "Chunk 1",
+        "Chunk 2",
+        "Chunk 3",
+        "Chunk 4"
+      ],
+      "confidence": 0.0,
+      "answer_correctness": {
+        "score": 1.0,
+        "explanation": "The system answer perfectly matches the ground truth, both stating that no information is available. There are no contradictions, missing facts, or hallucinations."
+      },
+      "context_relevancy": {
+        "score": 0.0,
+        "explanation": "Chunk 1 (weight 0.5): 0.0 - Contains a timeline and court date for claim #1 but no information about the claimant's blood type. Chunk 2 (weight 0.3): 0.0 - Contains claimant information for claim #1 (name, address, phone, email) but does not include blood type. Chunk 3 (weight 0.2): 0.0 - (Duplicate of Chunk 1) Contains timeline and court date for claim #1 but no information about the claimant's blood type. Weighted total: (0.0\u00d70.5)+(0.0\u00d70.3)+(0.0\u00d70.2) = 0.00."
+      },
+      "context_recall": {
+        "score": 1.0,
+        "explanation": "Context recall not evaluated (no expected chunks specified). Default score: 1.0"
+      },
+      "final_score": 1.0,
+      "is_unanswerable": true,
+      "scoring_note": "Context Relevancy 0.0 treated as 1.0 (correct behavior for unanswerable question)"
+    }
+  ],
+  "summary": {
+    "total_cases": 8,
+    "avg_answer_correctness": 0.83125,
+    "avg_context_relevancy": 0.7,
+    "avg_context_recall": 1.0,
+    "avg_final_score": 0.8854166666666666
+  }
+}
