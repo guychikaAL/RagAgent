@@ -2,6 +2,8 @@
 
 A modular, scalable Retrieval-Augmented Generation (RAG) system designed for production use with **multi-claim document processing** and **smart metadata filtering**.
 
+Advanced RAG system for insurance claims using multi-agent AI architecture. Automatically routes questions to specialized agents, uses auto-merging retrieval for precise answers, handles complex summaries with map-reduce, and performs date calculations with MCP tools. Includes GUI showing retrieval processes and complete evaluation framework.
+
 ## 🚀 Quick Start
 
 ### Option 1: Simple Notebook (Recommended)
@@ -225,4 +227,3 @@ Each layer includes a Jupyter notebook for human inspection:
 ## License
 
 Internal project - Not for distribution
-
