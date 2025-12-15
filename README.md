@@ -6,18 +6,7 @@ Advanced RAG system for insurance claims using multi-agent AI architecture. Auto
 
 ## 🚀 Quick Start
 
-### Option 1: Simple Notebook (Recommended)
-```bash
-# Open ask_questions.ipynb
-jupyter notebook ask_questions.ipynb
-
-# Run the setup cell, then ask questions like:
-# - "What is Jon Mor's phone number?"
-# - "Summarize claim number 5"
-# - "What happened in Eli Cohen's accident?"
-```
-
-### Option 2: Interactive Script
+ Interactive Script
 ```bash
 # Build production index (once)
 python build_production_index.py
